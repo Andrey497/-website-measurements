@@ -1,0 +1,12 @@
+const defaultState = {
+    items:[],
+    isFetching:true,
+}
+function responseReduser(state= defaultState,action){
+    switch (action.type) {
+        default:return state
+    }
+}
+
+
+export default responceReduser
